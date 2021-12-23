@@ -1,13 +1,14 @@
 <template>
   <div class="hello">
     <div>{{citys}}</div>
+    <div>city</div>
   </div>
+  
 </template>
 
 <script>
-import {getCity} from '../api/api'
+import {getCity} from '@/api/api'
 export default {
-  name: 'HelloWorld',
   props: {
     msg: String
   },
